@@ -13,13 +13,13 @@
     {% endfor %}
 
     <center>
-        <h2>Welcome to my authentication website</h2>
+        <h1>WELCOME TO MY AUTHENTICATION WEBSITE</h1>
     </center>
 
     {% if user.is_authenticated %}
     <center class="my-5">
-        <h3>Hello {{ fname }}</h3>
-        <h4 class="my-3">You're successfully logged in.</h4>
+        <h2>Hello {{ fname }}</h2>
+        <h2 class="my-3">You're successfully logged in.</h2>
         <h2>Current Time : {{ now }}</h2>
         <button type="submit" class="btn btn-primary my-4">
             <a href="/signout" class="link-offset-2 link-underline link-underline-opacity-0 link-light">Signout</a>
